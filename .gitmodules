@@ -1,0 +1,3 @@
+[submodule "ISitePlugin"]
+	path = ISitePlugin
+	url = https://github.com/CommentViewerCollection/ISitePlugin.git

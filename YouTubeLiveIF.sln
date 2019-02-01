@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeLiveIF", "YouTubeLiveIF\YouTubeLiveIF.csproj", "{83974E62-4D55-4E67-8F88-BBFF2222E5A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitePlugin", "ISitePlugin\ISitePlugin\SitePlugin.csproj", "{C13BFDF0-3B93-475F-900E-E7BAD97ACE3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{83974E62-4D55-4E67-8F88-BBFF2222E5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83974E62-4D55-4E67-8F88-BBFF2222E5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83974E62-4D55-4E67-8F88-BBFF2222E5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C13BFDF0-3B93-475F-900E-E7BAD97ACE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13BFDF0-3B93-475F-900E-E7BAD97ACE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13BFDF0-3B93-475F-900E-E7BAD97ACE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C13BFDF0-3B93-475F-900E-E7BAD97ACE3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
