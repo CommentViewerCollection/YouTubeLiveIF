@@ -22,22 +22,10 @@ namespace YouTubeLiveSitePlugin
     public interface IYouTubeLiveDisconnected : IYouTubeLiveMessage
     {
     }
-    public interface IYouTubeLiveComment : IYouTubeLiveMessage
+    public interface IYouTubeLiveComment : IYouTubeLiveMessage, IMessageComment
     {
-        //string Comment { get; }
-        string Id { get; }
-        //string UserName { get; }
-        string UserId { get; }
-        long PostedAt { get; }
-        IMessageImage UserIcon { get; set; }
     }
-    public interface IYouTubeLiveSuperchat : IYouTubeLiveMessage
+    public interface IYouTubeLiveSuperchat : IYouTubeLiveMessage, IMessageComment
     {
-        //string Comment { get; }
-        string Id { get; }
-        //string UserName { get; }
-        string UserId { get; }
-        long PostedAt { get; }
-        IMessageImage UserIcon { get; }
     }
 }
